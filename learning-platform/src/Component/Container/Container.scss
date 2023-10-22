@@ -1,0 +1,118 @@
+.MainContainer {
+margin-top: 110px;
+margin-bottom:120px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  padding: 0 120px;
+  .ant-collapse-item {
+    .ant-collapse-header {
+      border-radius: 5px;
+      background: #11b98f;
+      color: #fff;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      align-items: center;
+      height: 70px;
+    //   max-width: 1100px;
+    //   width: 100%;
+    //   padding: 23px 49px;
+  
+      .ant-collapse-expand-icon{
+         span{
+            font-size: 18px;
+         }
+      }
+    }
+    .ant-collapse-content-box{
+        border-radius: 0px 0px 5px 5px;
+border: 1px solid #EFF2F9;
+background: #EAF0F6;
+padding-bottom: 120px;
+
+    }
+  }
+}
+
+
+
+
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+  
+.MainContainer{
+    padding: 0 80px;
+    margin-bottom: 100px;
+    .ant-collapse-content-box{
+        padding-bottom: 80px;
+   }
+}
+}
+@media screen and (min-width: 425px) and (max-width: 800px) {
+    .MainContainer{
+        padding: 0 40px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+        .ant-collapse-item {
+            .ant-collapse-header {
+              border-radius: 5px;
+              background: #11b98f;
+              color: #fff;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: normal;
+              align-items: center;
+              height: 70px;
+              padding: 18px 23px;
+              .ant-collapse-expand-icon{
+                 span{
+                    font-size: 16px;
+                 }
+              }
+            }
+            .ant-collapse-content-box{
+                padding-bottom: 60px;
+           }
+            
+          }
+        
+        .ant-collapse-content-box{
+            padding-bottom: 60px;
+       }
+    }
+
+}
+@media screen and (min-width: 319px) and (max-width: 425px) {
+    .MainContainer{
+        padding: 0 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        .ant-collapse-item {
+            .ant-collapse-header {
+              border-radius: 5px;
+              background: #11b98f;
+              color: #fff;
+              font-size: 12px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: normal;
+              align-items: center;
+              height: 70px;
+              padding: 10px 11px;
+              .ant-collapse-expand-icon{
+                 span{
+                    font-size: 12px;
+                 }
+              }
+            }
+            .ant-collapse-content-box{
+                 padding-bottom: 60px;
+            }
+          }
+    }
+        
+
+}
+
